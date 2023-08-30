@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+<link rel="stylesheet" href="css.css">
+<script src="https://kit.fontawesome.com/9658632f7b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+ <div class="container">
+    <nav> 
+        <img src="preeti.png" alt="logo" width="200px" height="100px">
+        <ul id="sidemenu">
+            <li><a href="#header"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#portfolio"> Portfolio</a></li>
+            <li><a href="#contact"> Contact</a></li>
+             <img src="c.png" class="h" width="20px " height="20px" onclick="closemenu()" >
+        </ul> 
+        <img src="bg.jpg" class="h" width="20px" height="20px" onclick="openmenu()" >
+    </nav>
+    <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi,I'm <span>Sunil</span> <br> kumar form Dholpur</h1>
+    </div> 
+ </div>
+</div>
+<!--------- ----------------------- about------------------------------->
+<div id="about">
+    <div class="container"> 
+        <div class="row"> 
+    <div class="about-col-1">
+        <img src="Long ginger hair.jpg">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title"> About Me</h1>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Rerum, incidunt id? Ipsa doloremqui sed vel alias por
+            iusto quibusdam explicabo eum, deleniti dolorum 
+            voluptatum odio corporis quidem doloremque? Earum.  </p>
+            <div class="tab-titles"> 
+                <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')"> Experience  </p>
+                <p class="tab-links" onclick="opentab('Education')"> Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">  
+                <ul> 
+                    <li><span>UI?UX</span><br> Designing web/app interfaces</li>
+                    <li><span>Web Development</span><br>  Web app Development</li>
+                    <li><span>App Development</span><br> Building Android/ios apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience"> 
+                <ul> 
+                    <li><span> 2022-current</span><br> UI/UX Design Training at IT Industry</li>
+                    <li><span>2020-2022</span><br> Team lead at starApp LIC</li>
+                    <li><span>2016-2020</span><br> Intership at HR manager</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education"> 
+                <ul> 
+                    <li><span>2021</span><br> BCA from Mathura</li>
+                    <li><span> 2018 </span><br> inter from Mathura </li>
+                    <li><span> 2022-current</span><br> MBA from Mathura</li>
+                </ul>
+            </div>
+    </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ services--------------------------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Maxicupiditate perspiciatis iusto unde asperiores,
+                     exercitationem et rem veritatis molestiae praesentium 
+                     quia voluptatibus dicta! Tempore tempora.
+                      quaerat magnam nobis aliquam?</p>
+                      <a href=""> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2>UI/UX Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Maxicupiditate perspiciatis iusto unde asperiores,
+                     exercitationem et rem veritatis molestiae praesentium 
+                     quia voluptatibus dicta! Tempore tempora.
+                      quaerat magnam nobis aliquam?</p>
+                      <a href=""> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Maxicupiditate perspiciatis iusto unde asperiores,
+                     exercitationem et rem veritatis molestiae praesentium 
+                     quia voluptatibus dicta! Tempore tempora.
+                      quaerat magnam nobis aliquam?</p>
+                      <a href=""> Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!----------------------------------------portfolio--------------------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1.png">
+                <div class="layer"> 
+                    <h4>Microsoft PP</h4>
+                    <p>   Powerpoint  make a perfect presentation . </p>
+                    <a href=""> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3.png">
+                <div class="layer"> 
+                    <h4>Microsoft PP</h4>
+                    <p>  Powerpoint  make a perfect presentation . </p>
+                    <a href=""> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3.png">
+                <div class="layer"> 
+                    <h4>Microsoft PP   </h4>
+                    <p> Powerpoint  make a perfect presentation . </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn"> See More </a>
+    </div>
+  </div>
+  <!------------------------------contact------------------------------>
+  <div id="contact"> 
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title"> Contact Me </h1>
+             <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> sunilrajput796311@gmail.com</p>  
+            <p>  <i class="fa-duotone fa-phone-volume"></i> 8058350201</p>
+            <div class="social-icon">
+                <img src="w.png" width="15px" height="15px">
+                <img src="t.png" width="15px" height="15px">
+                <img src="f.png" width="15px" height="15px">
+                <img src="i.png" width="15px" height="15px">
+               
+            </div>
+            <a href="preeti RESUME.docx" class="btn btn2"> Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                     
+                   <!-------<input type="password" placeholder="password" id="password">
+                    <img src="eye.png" width="80px" height="40px" id="eyeicon"> ----->
+                    
+                    <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>copyright  @ Sunil. made with <img src="h.png" width="10px" height="10px"> by preeti4U </p>
+    </div>
+  </div>
+ 
+  <script src="js.js">  </script>
+</body>
+</html>
